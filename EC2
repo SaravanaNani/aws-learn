@@ -53,8 +53,8 @@ For example:
 
 Sample Rule Table:
 ===========================================================================================
-Type 	Protocol	 Port Range 	Source	                        Purpose              
+Type	Protocol	Port Range	Source	Purpose
 ===========================================================================================
-SSH  	 TCP	    22	      Your IP (e.g., 1.2.3.4/32)   To allow secure login.      
-HTTP 	 TCP	    80	      0.0.0.0/0	                 To allow public web traffic 
+SSH	TCP	22	Your IP (e.g., 1.2.3.4/32)	To allow secure login.
+HTTP	TCP	80	0.0.0.0/0	To allow public web traffic.
 ===========================================================================================
