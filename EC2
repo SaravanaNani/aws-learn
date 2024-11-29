@@ -1,0 +1,29 @@
+Instance: -> Instance Type: Defines Hardware - CPU,RAM,Storage,N/W Performance:
+                      eg: t2.micro for - website
+
+          -> Launch Templates: Save Configuration like Instance Type, Key-pair, Security Group, VPC etc
+                          eg: Quickly launch multiple similar instances.
+          
+          -> Spot Requests: Unused EC2 Instance that AWS offers at 90% offer 
+      
+          * How Spot Instances Work:
+
+          -> AWS’s Perspective: AWS has extra capacity in its data centers (unused EC2 instances). 
+                                Instead of letting that capacity remain idle, it offers it to customers at a discounted price.
+
+          -> Customer Perspective: Customers can "bid" for these Spot Instances, but with one condition:
+                                   If AWS needs the capacity back for on-demand or reserved users, your Spot Instance will be terminated with a 2-minute warning.
+
+          -> Saving Plans:  If You know your business runs 10 EC2 instances consistently for the next 2 years.
+                            Commit to a savings plan and save up to 66% on the cost.
+          
+          -> Reserved Instancce:  A company runs a production database 24/7 for 3 years, (up to 75%)
+                                  They reserve an instance type (e.g., m5.large) for 3 years at a lower cost.
+
+          -> Dedicated Host: Get full control of a physical server.
+                             A dedicated host is a physical server fully allocated to your account. 
+                             It gives more control over licensing and compliance requirements. 
+
+          -> Capacity Reservation: Ensures EC2 capacity WHen u need the instance capacity Increases, 
+                                eg: Big billion days Flikart get more users so it reserves capacity for 100 m5.large instances to handle expected traffic spikes.
+
