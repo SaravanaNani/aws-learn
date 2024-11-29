@@ -83,3 +83,16 @@ Real-Life Example of AMI Usage:
 -> You create and configure one EC2 instance with all software and settings.
 -> Save this instance as an AMI.
 -> Use the AMI to launch 5 identical EC2 instances in minutes.
+==========================================================================================================================================
+
+What is an AMI Catalog?
+---------------------------
+
+-> The AMI Catalog is a collection of AMIs available for use in AWS. It includes:
+
+-> AWS Marketplace AMIs: Pre-configured images provided by AWS partners (e.g., WordPress, Jenkins).
+-> Community AMIs: Shared AMIs created by other AWS users.
+-> AWS-Provided AMIs: Official AMIs provided by AWS (e.g., Amazon Linux, Ubuntu).
+-> Your AMIs: Custom AMIs you create and store in your account.
+
+=============================================================================================================================================
