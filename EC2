@@ -58,3 +58,28 @@ Type	Protocol	Port Range	Source	Purpose
 SSH	TCP	22	Your IP (e.g., 1.2.3.4/32)	To allow secure login.
 HTTP	TCP	80	0.0.0.0/0	To allow public web traffic.
 ===========================================================================================
+
+AMI (Amazon Machine Image):
+
+It is a pre-configured template that provides the information required to launch an EC2 instance. It includes:
+
+-> OS (Operating System): Linux, Windows, etc.
+-> Software/Applications: Web servers, databases, custom tools.
+-> Configuration Settings: Security, permissions, or application configurations.
+
+==========================================================================================================================================
+
+Key Features of AMI:
+---------------------
+-> Customizable: You can create your own AMI after customizing an instance.
+-> Example: Install software, make configurations, and save it as a reusable AMI.
+-> Shareable: AMIs can be shared across accounts or regions.
+-> Region-Specific: AMIs are specific to an AWS region but can be copied to other regions.
+
+Real-Life Example of AMI Usage:
+==================================
+
+-> You want to set up 5 web servers with the same configuration.
+-> You create and configure one EC2 instance with all software and settings.
+-> Save this instance as an AMI.
+-> Use the AMI to launch 5 identical EC2 instances in minutes.
