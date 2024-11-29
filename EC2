@@ -1,7 +1,8 @@
-Instance: -> Instance Type: Defines Hardware - CPU,RAM,Storage,N/W Performance:
+INSTANCE: 
+         -> Instance Type: Defines Hardware - CPU,RAM,Storage,N/W Performance:
                       eg: t2.micro for - website
 
-          -> Launch Templates: Save Configuration like Instance Type, Key-pair, Security Group, VPC etc
+         -> Launch Templates: Save Configuration like Instance Type, Key-pair, Security Group, VPC etc
                           eg: Quickly launch multiple similar instances.
           
           -> Spot Requests: Unused EC2 Instance that AWS offers at 90% offer 
@@ -26,4 +27,26 @@ Instance: -> Instance Type: Defines Hardware - CPU,RAM,Storage,N/W Performance:
 
           -> Capacity Reservation: Ensures EC2 capacity WHen u need the instance capacity Increases, 
                                 eg: Big billion days Flikart get more users so it reserves capacity for 100 m5.large instances to handle expected traffic spikes.
+==================================================================================================================================================================
 
+KEY_PAIR: A set of 2 keys 
+========= 
+          Public Key: Stored on the EC2 instance.
+          Private Key: Stored securely by you.
+NOTE: 
+-> AWS generates the key pair when you launch an EC2 instance, and you download the private key file (.pem file).
+-> Keep the private key safe! If you lose it, you cannot log in to the EC2 instance.
+-> Use the .pem file with an SSH client (like PuTTY or the terminal) to connect to the instance securely.
+
+--------------------------------------------------------------------------------------------------------------------
+
+SECURITY GROUP: A security group is a virtual firewall for your EC2 instance. It controls:
+==============
+                Inbound traffic: What can enter your instance.
+                Outbound traffic: What can leave your instance.
+
+NOTE: By default, AWS blocks all inbound traffic.To allow access, you must add rules. 
+
+For example:
+-> Allow SSH (port 22) from your IP address to log in.
+-> Allow HTTP (port 80) to host a website.
