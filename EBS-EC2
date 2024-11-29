@@ -1,0 +1,74 @@
+Elastic Block Store (EBS):
+--------------------------
+
+-> Amazon EBS (Elastic Block Store) is AWS's block storage service designed for use with EC2 instances. 
+-> It acts like a virtual hard drive for your instance, providing persistent, scalable, and high-performance storage.
+
+========================================================================================================================
+2. Volumes: An EBS volume is the actual storage unit attached to an EC2 instance. 
+            It behaves like a hard drive but is located in the cloud.
+
+Key Types of Volumes:
+====================
+
+-> General Purpose SSD (gp3, gp2): For regular workloads like web apps or databases.
+
+-> Provisioned IOPS SSD (io2, io1): For high-performance databases requiring low latency.
+
+-> Throughput-Optimized HDD (st1): For streaming or large data processing tasks.
+
+-> Cold HDD (sc1): For infrequent access to archived data.
+
+Example:
+=========
+
+-> You create a gp2 volume of 100GB to store a database for an EC2 instance.
+-> Later, you can resize the volume to 200GB without stopping the instance.
+===============================================================================================================================
+
+SNAPSHOTS: An EBS Snapshot is a backup of your EBS volume. 
+           Snapshots are stored in Amazon S3 and can be used to:
+
+-> Restore data: Create a new volume from the snapshot if the original is lost or corrupted.
+-> Clone setups: Use snapshots to create volumes in different regions or accounts.
+
+Key Characteristics of Snapshots:
+-----------------------------------
+Incremental Backups: 
+                  
+                  -> The first snapshot is a full backup.
+                  -> Subsequent snapshots only save changes since the last snapshot (saves storage and costs).
+
+Cross-Region Copying: Snapshots can be copied to other regions for disaster recovery
+
+Example to Snapshots:
+------------------------
+
+-> Imagine taking a photo of your hard drive (EBS volume) as it is right now.
+-> If something happens to the hard drive, you can use the photo (snapshot) to recreate it exactly as it was.
+==============================================================================================================================
+
+ Lifecycle Manager:
+-------------------
+The EBS Lifecycle Manager automates the process of creating, managing, and deleting snapshots based on defined policies.
+
+Key Features:
+=============
+-> Schedule regular snapshots to meet backup and compliance needs.
+-> Retain snapshots for a specific time, automatically deleting older ones to save costs.
+-> Apply tags for easy organization and tracking.
+
+Example:
+
+-> You configure a Lifecycle Manager policy to:
+-> Take a snapshot of a volume every day at midnight.
+-> Retain snapshots for 30 days and delete older ones automatically.
+===============================================================================================================================
+
+Simplified Real-Life Example:
+---------------------------------
+-> You launch an EC2 instance and attach a 100GB EBS Volume (hard drive).
+
+-> You take a snapshot of the volume as a backup in case of failure.
+
+-> Use Lifecycle Manager to create snapshots every 24 hours and delete them after 7 days.
