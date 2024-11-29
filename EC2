@@ -59,6 +59,10 @@ SSH	TCP	22	Your IP (e.g., 1.2.3.4/32)	To allow secure login.
 HTTP	TCP	80	0.0.0.0/0	To allow public web traffic.
 ===========================================================================================
 
+ELASTIC-IP: 
+          -> To make your Pulic IP - Static we use Elastic IP.
+          -> Suppose you have stopped your VM and Started again, then the Public IP won't change.
+==================================================================================================
 AMI (Amazon Machine Image):
 
 It is a pre-configured template that provides the information required to launch an EC2 instance. It includes:
