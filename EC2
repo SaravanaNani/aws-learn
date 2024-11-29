@@ -50,3 +50,11 @@ NOTE: By default, AWS blocks all inbound traffic.To allow access, you must add r
 For example:
 -> Allow SSH (port 22) from your IP address to log in.
 -> Allow HTTP (port 80) to host a website.
+
+Sample Rule Table:
+===========================================================================================|
+Type |	Protocol	 | Port Range |	Source	                 |       Purpose              |
+===========================================================================================|
+SSH  |	 TCP	 |   22	    | Your IP (e.g., 1.2.3.4/32)   |To allow secure login.      |
+HTTP |	 TCP	 |   80	    | 0.0.0.0/0	                 |To allow public web traffic |
+===========================================================================================|
