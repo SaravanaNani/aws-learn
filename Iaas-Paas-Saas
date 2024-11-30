@@ -1,0 +1,65 @@
+1. Infrastructure as a Service (IaaS):
+
+Definition: IaaS provides virtualized computing resources like servers, storage, and networks over the internet. You manage the infrastructure and install the necessary software (e.g., OS, applications).
+
+Key Features:
+
+-> Provides virtual machines, storage, and networking.
+-> Highly flexible and scalable.
+-> Requires technical expertise for setup and maintenance.
+
+User Responsibility:
+====================
+
+-> You manage the operating system, middleware, applications, and data.
+-> Provider manages the hardware and virtualization.
+
+Examples:
+=========
+AWS EC2, Google Compute Engine, Microsoft Azure Virtual Machines.
+
+==============================================================================================
+
+2. Platform as a Service (PaaS):
+==================================
+
+Definition: PaaS offers a platform for developers to build, deploy, and manage applications without worrying about underlying infrastructure.
+
+
+Key Features:
+=============
+-> Includes tools, libraries, and frameworks for app development.
+-> Reduces the need for infrastructure management.
+-> Ideal for developers to focus on writing code.
+
+User Responsibility:
+=================
+-> You manage the application and data.
+-> Provider manages the infrastructure, OS, and runtime.
+
+Examples:
+===========
+Google App Engine, AWS Elastic Beanstalk, Heroku.
+
+=========================================================================================
+
+3. Software as a Service (SaaS)
+
+Definition: SaaS delivers fully functional software applications over the internet. Users simply access the software via a browser or app without worrying about backend management.
+==========
+
+Key Features:
+==============
+-> Fully managed by the provider.
+-> Accessible on-demand via a subscription or pay-as-you-go model.
+-> Requires minimal technical expertise to use.
+
+User Responsibility:
+====================
+
+-> End-users only manage how they use the software.
+-> Provider manages everything, including infrastructure, platform, and the application itself.
+
+Examples:
+==========
+Google Workspace (Docs, Gmail), Salesforce, Microsoft 365.
