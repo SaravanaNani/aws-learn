@@ -74,3 +74,12 @@ Ans: ```A single data center or group of data centers within a Region```
 An edge location is a site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
 
 ### Provision AWS Resources
+
+Ways to interact with AWS services:
+1. AWS Management Console
+2.  AWS Command Line Interface (AWS CLI).
+3. software development kits (SDKs)
+4. AWS Elastic Beanstalk
+5. AWS CloudFormation
+
+ 
