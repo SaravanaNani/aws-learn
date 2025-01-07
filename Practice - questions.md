@@ -68,19 +68,36 @@ Ans: ```Amazon Elastic Kubernetes Service (Amazon EKS)```
 
 1. Which statement best describes an Availability Zone?
 Ans: ```A single data center or group of data centers within a Region```
+2. Which statement is TRUE for the AWS global infrastructure?
+Ans: ```A Region consists of three or more Availability Zones.```
+3. Which factors should be considered when selecting a Region? (Select TWO.)
+Ans: ``` 1-Compliance with data governance and legal requirements
+   2-Proximity to your customers```
 
 ### Edge locations
 
 An edge location is a site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
 
+1. Which statement best describes Amazon CloudFront?
+Ans: ```A global content delivery service ```
+
+2. Which site does Amazon CloudFront use to cache copies of content for faster delivery to users at any location?
+Ans: ```Edge location```
+
+
+
 ### Provision AWS Resources
 
-Ways to interact with AWS services:
+### Ways to interact with AWS services:
 1. AWS Management Console
 2.  AWS Command Line Interface (AWS CLI).
 3. software development kits (SDKs)
+   
 ### AWS Elastic Beanstalk
 ### AWS CloudFormation
+
+1. Which action can you perform with AWS Outposts?
+Ans: ```Extend AWS infrastructure and services to different locations including your on-premises data center.```
 
 In Module 3, you learned about the following concepts:
 
