@@ -13,7 +13,7 @@ Ans: ```The aggregated cloud usage from a large number of customers results in l
   
 # Moudle 2
 
-
+### Instance Type:
 
 1. Which Amazon EC2 instance type is suitable for data warehousing applications?
 Ans: ``` Storage optimized```
@@ -26,3 +26,14 @@ Ans: ```Memory optimized```
 
 4. Which Amazon EC2 instance type offers high-performance processors?
 Ans: ```Compute optimized```
+
+
+### Instance Pricing:
+
+1. Which Amazon EC2 pricing option provides a discount when you specify a number of EC2 instances to run a specific OS, instance family and size, and tenancy in one Region?
+Ans: ``` Standard Reserved Instances ```
+
+2. Which Amazon EC2 pricing option provides a discount when you make an hourly spend commitment to an instance family and Region for a 1-year or 3-year term?
+Ans: ``` EC2 Instance Savings Plans ```
+
+3. 
