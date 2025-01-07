@@ -36,4 +36,11 @@ Ans: ``` Standard Reserved Instances ```
 2. Which Amazon EC2 pricing option provides a discount when you make an hourly spend commitment to an instance family and Region for a 1-year or 3-year term?
 Ans: ``` EC2 Instance Savings Plans ```
 
-3. 
+### Auto Scaling:
+
+### Directing Traffic  with Elastic Load Balancer:
+
+### Messaging and Queuing:
+
+1. Which AWS service is the best choice for publishing messages to subscribers?
+Ans: ``` Amazon Simple Notification Service (Amazon SNS)```  
