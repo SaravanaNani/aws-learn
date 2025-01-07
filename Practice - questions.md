@@ -27,6 +27,10 @@ Ans: ```Memory optimized```
 4. Which Amazon EC2 instance type offers high-performance processors?
 Ans: ```Compute optimized```
 
+5. You want to use an Amazon EC2 instance for a batch processing workload. What would be the best Amazon EC2 instance type to use?
+Ans: ```Compute optimized```
+
+
 
 ### Instance Pricing:
 
@@ -36,11 +40,24 @@ Ans: ``` Standard Reserved Instances ```
 2. Which Amazon EC2 pricing option provides a discount when you make an hourly spend commitment to an instance family and Region for a 1-year or 3-year term?
 Ans: ``` EC2 Instance Savings Plans ```
 
+3. What are the contract length options for Amazon EC2 Reserved Instances? (Select TWO.) Ans ``` 1 year and 3 years```
+
+4. You have a workload that will run for a total of 6 months and can withstand interruptions. What would be the most cost-efficient Amazon EC2 purchasing option?
+``` Spot Instance ```
+
 ### Auto Scaling:
 
 ### Directing Traffic  with Elastic Load Balancer:
 
+1. Which process is an example of Elastic Load Balancing?
+Ans: ```Ensuring that no single Amazon EC2 instance has to carry the full workload on its own```
+
 ### Messaging and Queuing:
 
 1. Which AWS service is the best choice for publishing messages to subscribers?
-Ans: ``` Amazon Simple Notification Service (Amazon SNS)```  
+Ans: ``` Amazon Simple Notification Service (Amazon SNS)``` 
+
+### Serverless and other computing resources: 
+
+1. You want to deploy and manage containerized applications. Which service should you use?
+Ans: ```Amazon Elastic Kubernetes Service (Amazon EKS)```
