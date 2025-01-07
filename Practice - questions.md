@@ -1,3 +1,20 @@
+
+# Module 1
+
+1. What is cloud computing?
+Ans: ```On-demand delivery of IT resources and applications through the internet with pay-as-you-go pricing```
+
+2. What is another name for on-premises deployment?
+Ans: ```Private cloud deployment```
+
+3. How does the scale of cloud computing help you to save costs?
+Ans: ```The aggregated cloud usage from a large number of customers results in lower pay-as-you-go prices.```
+
+  
+# Moudle 2
+
+
+
 1. Which Amazon EC2 instance type is suitable for data warehousing applications?
 Ans: ``` Storage optimized```
 
