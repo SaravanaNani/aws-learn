@@ -61,3 +61,16 @@ Ans: ``` Amazon Simple Notification Service (Amazon SNS)```
 
 1. You want to deploy and manage containerized applications. Which service should you use?
 Ans: ```Amazon Elastic Kubernetes Service (Amazon EKS)```
+
+# Module 3
+
+### Global InfraStructure - High Avvailability:
+
+1. Which statement best describes an Availability Zone?
+Ans: ```A single data center or group of data centers within a Region```
+
+### Edge locations
+
+An edge location is a site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
+
+### Provision AWS Resources
