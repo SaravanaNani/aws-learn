@@ -79,7 +79,14 @@ Ways to interact with AWS services:
 1. AWS Management Console
 2.  AWS Command Line Interface (AWS CLI).
 3. software development kits (SDKs)
-4. AWS Elastic Beanstalk
-5. AWS CloudFormation
+### AWS Elastic Beanstalk
+### AWS CloudFormation
 
+In Module 3, you learned about the following concepts:
+
+AWS Regions and Availability Zones
+Edge locations and Amazon CloudFront
+The AWS Management Console, AWS CLI, and SDKs
+AWS Elastic Beanstalk
+AWS CloudFormation
  
