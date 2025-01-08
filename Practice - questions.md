@@ -106,4 +106,10 @@ Edge locations and Amazon CloudFront
 The AWS Management Console, AWS CLI, and SDKs
 AWS Elastic Beanstalk
 AWS CloudFormation
+
+# Module 4 - Amazon Virtual Private Cloud, or VPCs
+
+### Connectivity to AWS
+
+### Subnets and Network Access Control Lists 
  
