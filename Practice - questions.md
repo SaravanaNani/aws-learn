@@ -112,4 +112,10 @@ AWS CloudFormation
 ### Connectivity to AWS
 
 ### Subnets and Network Access Control Lists 
+
+1. Which statement best describes an AWS account’s default network access control list?
+Ans: ```It is stateless and allows all inbound and outbound traffic```
+
+### Global Networking
+
  
