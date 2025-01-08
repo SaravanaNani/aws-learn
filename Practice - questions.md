@@ -111,9 +111,10 @@ AWS CloudFormation
 
 ### Connectivity to AWS
 
-1. Your company has an application that uses Amazon EC2 instances to run the customer-facing website and Amazon RDS database instances to store customers’ personal information. How should the developer configure the VPC according to best practices?
+1. Your company has an application that uses Amazon EC2 instances to run the customer-facing website and Amazon RDS database instances to store customers’ personal information. How should the developer 
+   configure the VPC according to best practices?
 
-Ans: ```Place the Amazon EC2 instances in a public subnet and the Amazon RDS database instances in a private subnet.```
+   Ans: ```Place the Amazon EC2 instances in a public subnet and the Amazon RDS database instances in a private subnet.```
 
 2. Which component can be used to establish a private dedicated connection between your company’s data center and AWS?
 Ans: ```AWS Direct Connect```
@@ -138,6 +139,8 @@ Ans: ```Translating a domain name to an IP address```
 
 2. Which service is used to manage the DNS records for domain names?
 Ans" ```Amazon Route 53```
+
+
 
 In Module 4, you learned about the following concepts:
 
