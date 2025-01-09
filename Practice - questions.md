@@ -157,3 +157,11 @@ In Module 4, you learned about the following concepts:
 1. Which of the following are characteristics of the Amazon EBS service? (Select TWO.)
 Ans: ```Best for data that requires retention and
 Separate drives from the host computer of an EC2 instance```
+
+### Amazon Simple Storage Service (Amazon S3)
+1. You want to store data that is infrequently accessed but must be immediately available when needed. Which Amazon S3 storage class should you use?
+Ans: ```S3 Standard-IA```
+
+### Amazon Elastic File System (Amazon EFS)
+
+### 
