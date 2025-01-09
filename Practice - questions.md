@@ -149,3 +149,11 @@ In Module 4, you learned about the following concepts:
 -> Securing VPC resources with network access control lists and security groups
 
 -> Using Amazon Route 53 and Amazon CloudFront to deliver content
+
+# Module 5: Storage and Data Base:
+
+### Instance Stores and Amazon Elastic Block Store (Amazon EBS):
+
+1. Which of the following are characteristics of the Amazon EBS service? (Select TWO.)
+Ans: ```Best for data that requires retention and
+Separate drives from the host computer of an EC2 instance```
