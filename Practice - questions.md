@@ -150,6 +150,7 @@ In Module 4, you learned about the following concepts:
 
 -> Using Amazon Route 53 and Amazon CloudFront to deliver content
 
+
 # Module 5: Storage and Data Base:
 
 ### Instance Stores and Amazon Elastic Block Store (Amazon EBS):
@@ -158,10 +159,92 @@ In Module 4, you learned about the following concepts:
 Ans: ```Best for data that requires retention and
 Separate drives from the host computer of an EC2 instance```
 
+2. Which statement or statements are TRUE about Amazon EBS volumes and Amazon EFS file systems?
+Ans: ```EBS volumes store data within a single Availability Zone. Amazon EFS file systems store data across multiple Availability Zones.```
+
+
 ### Amazon Simple Storage Service (Amazon S3)
+
 1. You want to store data that is infrequently accessed but must be immediately available when needed. Which Amazon S3 storage class should you use?
 Ans: ```S3 Standard-IA```
 
+2. Which Amazon S3 storage classes are optimized for archival data? (Select TWO.)
+Ans: ``` Amazon S3 Glacier Flexible Retrieval and
+Amazon S3 Glacier Deep Archive```
+
+3. You want to store data in an object storage service. Which AWS service is best for this type of storage?
+Ans: ``` mazon Simple Storage Service (Amazon S3)```
+
+
 ### Amazon Elastic File System (Amazon EFS)
 
-### 
+### Amazon Relational Database Service (Amazon RDS): 
+
+```Amazon Relational Database Service (Amazon RDS)(opens in a new tab) is a service that enables you to run relational databases in the AWS Cloud.```
+
+1. What are the scenarios in which you should use Amazon Relational Database Service (Amazon RDS)? (Select TWO.)
+Ans: ```
+Using SQL to organize data
+Storing data in an Amazon Aurora database ```
+
+
+### Amazon DynamoDB
+
+```Amazon DynamoDB(opens in a new tab) is a key-value database service. It delivers single-digit millisecond performance at any scale.```
+
+DynamoDB is serverless: which means that you do not have to provision, patch, or manage servers. 
+You also do not have to install, maintain, or operate software.
+
+Automatic scaling: As the size of your database shrinks or grows, DynamoDB automatically scales to adjust for changes in capacity while maintaining consistent performance. 
+This makes it a suitable choice for use cases that require high performance while scaling.
+
+
+1. Which statement best describes Amazon DynamoDB?
+Ans: ``` A serverless key-value database service```
+
+### Amazon Redshift
+
+```Amazon Redshift(opens in a new tab) is a data warehousing service that you can use for big data analytics. It offers the ability to collect data from many sources and helps you to understand relationships and trends across your data```
+
+1. Which service is used to query and analyze data across a data warehouse?
+Ans: ```Amazon Redshift```
+
+
+### AWS Database Migration Service
+
+``` AWS Database Migration Service (AWS DMS)(opens in a new tab) enables you to migrate relational databases, nonrelational databases, and other types of data stores```
+
+With AWS DMS, you move data between a source database and a target database. The source and target databases(opens in a new tab) can be of the same type or different types. During the migration, your source database remains operational, reducing downtime for any applications that rely on the database. 
+
+### Additional database services:
+
+```Amazon DocumentDB``` is a document database service that supports MongoDB workloads.
+
+```Amazon Neptune``` is a graph database service. 
+
+```Amazon Quantum Ledger Database (Amazon QLDB)``` is a ledger database service. 
+
+```Amazon Managed Blockchain``` is a service that you can use to create and manage blockchain networks with open-source framework
+
+```Amazon ElastiCache``` is a service that adds caching layers on top of your databases to help improve the read times of common requests. 
+
+```Amazon DynamoDB ```Accelerator (DAX) is an in-memory cache for DynamoDB. 
+
+
+
+### In Module 5, you learned about the following concepts:
+
+Amazon EC2 instance store and Amazon EBS
+
+Amazon S3
+
+Amazon EFS
+
+Relational databases and Amazon RDS
+
+Nonrelational databases and DynamoDB
+
+Amazon Redshift
+AWS DMS
+Additional database services and accelerators
+
