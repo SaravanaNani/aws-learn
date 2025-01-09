@@ -261,4 +261,21 @@ This includes areas such as the host operating system, the virtualization layer,
 1. Which tasks are the responsibilities of customers? (Select TWO.)
 Ans: ```Patching software on Amazon EC2 instances and Setting permissions for Amazon S3 objects```
 
+### User Permissions and Acces: AWS Identity and Access Management (IAM)
 
+```IAM users``` - An IAM user is an identity that you create in AWS. It represents the person or application that interacts with AWS services and resources. It consists of a name and credentials.
+
+```IAM group``` -  An IAM group is a collection of IAM users. When you assign an IAM policy to a group, all users in the group are granted permissions specified by the policy.
+
+```IAM Roles``` - An IAM role is an identity that you can assume to gain temporary access to permissions.
+                  IAM roles are ideal for situations in which access to services or resources needs to be granted temporarily, instead of long-term.  
+
+```IAM policies ```- An IAM policy is a document that allows or denies permissions to AWS services and resources
+
+```Multi-factor authentication``` - In IAM, multi-factor authentication (MFA) provides an extra layer of security for your AWS account.
+
+### AWS Organizations & Organizational units:
+
+1. You are configuring service control policies (SCPs) in AWS Organizations. Which identities and resources can SCPs be applied to? (Select TWO.)
+Ans: ``` An individual member account and 
+An organizational unit (OU)```
