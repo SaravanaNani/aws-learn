@@ -248,3 +248,17 @@ Amazon Redshift
 AWS DMS
 Additional database services and accelerators
 
+# Module 6: Security
+
+### The AWS shared responsibility model: 
+
+```Customer: Security in cloud ``` - Customers are responsible for the security of everything that they create and put in the AWS Cloud.
+When using AWS services, you, the customer, maintain complete control over your content. You are responsible for managing security requirements for your content, including which content you choose to store on AWS, which AWS services you use, and who has access to that content. You also control how access rights are granted, managed, and revoked.
+
+```AWS: Security of the cloud``` - AWS is responsible for security of the cloud: AWS operates, manages, and controls the components at all layers of infrastructure.
+This includes areas such as the host operating system, the virtualization layer, and even the physical security of the data centers from which services operate. 
+
+1. Which tasks are the responsibilities of customers? (Select TWO.)
+Ans: ```Patching software on Amazon EC2 instances and Setting permissions for Amazon S3 objects```
+
+
