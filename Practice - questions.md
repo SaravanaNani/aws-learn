@@ -274,8 +274,68 @@ Ans: ```Patching software on Amazon EC2 instances and Setting permissions for Am
 
 ```Multi-factor authentication``` - In IAM, multi-factor authentication (MFA) provides an extra layer of security for your AWS account.
 
+
+1.Which statement best describes an IAM policy?
+Ans: ```A document that grants or denies permissions to AWS services and resources```
+
+2. An employee requires temporary access to create several Amazon S3 buckets. Which option would be the best choice for this task?
+Ans: ``` IAM Role```
+
+3. Which statement best describes the principle of least privilege?
+Ans: ``` Granting only the permissions that are needed to perform specific tasks```
+
 ### AWS Organizations & Organizational units:
 
 1. You are configuring service control policies (SCPs) in AWS Organizations. Which identities and resources can SCPs be applied to? (Select TWO.)
 Ans: ``` An individual member account and 
 An organizational unit (OU)```
+
+### Compliance
+
+```AWS Artifact``` - AWS Artifact(opens in a new tab) is a service that provides on-demand access to AWS security and compliance reports and select online agreements. 
+                      AWS Artifact consists of two main sections: AWS Artifact Agreements and AWS Artifact Reports
+
+```` AWS Artifact Agreements```` - In AWS Artifact Agreements, you can review, accept, and manage agreements for an individual account and for all your accounts in AWS Organizations. Different types of agreements are offered to address the needs of customers who are subject to specific regulations, such as the Health Insurance Portability and Accountability Act (HIPAA).
+
+```AWS Artifact Reports``` - AWS Artifact Reports provide compliance reports from third-party auditors. 
+These auditors have tested and verified that AWS is compliant with a variety of global, regional, and industry-specific security standards and regulations.
+AWS Artifact Reports remains up to date with the latest reports released. You can provide the AWS audit artifacts to your auditors or regulators as evidence of AWS security controls. 
+
+```Customer Compliance Center```- The Customer Compliance Center contains resources to help you learn more about AWS compliance. 
+
+1. Which tasks can you complete in AWS Artifact? (Select TWO.)
+Ans: ```Access AWS compliance reports on-demand. and
+Review, accept, and manage agreements with AWS.```
+
+### Denial-of-service attacks: A denial-of-service (DoS) attack is a deliberate attempt to make a website or application unavailable to users.
+
+```AWS Shield``` - AWS Shield is a service that protects applications against DDoS attacks. AWS Shield provides two levels of protection: Standard and Advanced.
+```AWS Shield Standard``` - automatically protects all AWS customers at no cost. It protects your AWS resources from the most common, frequently occurring types of DDoS attacks. 
+```AWS Shield Advanced``` - is a paid service that provides detailed attack diagnostics and the ability to detect and mitigate sophisticated DDoS attacks. 
+
+1. Which service helps protect your applications against distributed denial-of-service (DDoS) attacks?
+Ans: ```AWS Shield```
+
+### Additional Security Services:
+
+```AWS Key Management Service (AWS KMS)``` - enables you to perform encryption operations through the use of cryptographic keys
+```AWS WAF``` - AWS WAF is a web application firewall that lets you monitor network requests that come into your web applications.
+```Amazon Inspector``` 
+```Amazon GuardDuty```
+
+1. Which task can AWS Key Management Service (AWS KMS) perform?
+Ans: ``` Create cryptographic keys.```
+
+
+### In Module 6, you learned about the following concepts:
+
+The shared responsibility model
+
+Features of AWS Identity and Access Management
+
+Methods of managing multiple accounts in AWS Organizations
+
+AWS compliance resources
+
+AWS services for application security and encryption
+
