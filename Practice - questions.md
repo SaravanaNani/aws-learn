@@ -339,3 +339,60 @@ AWS compliance resources
 
 AWS services for application security and encryption
 
+# Module 7 - Monitoring and Analytics
+
+### Amazon CLoud Watch
+
+```Amazon CloudWatch``` is a web service that enables you to monitor and manage various metrics and configure alarm actions based on data from those metrics.
+CloudWatch uses metrics to represent the data points for your resources. AWS services send metrics to CloudWatch.
+CloudWatch then uses these metrics to create graphs automatically that show how performance has changed over time. 
+
+```CloudWatch alarms``` With CloudWatch, you can create alarms(opens in a new tab) that automatically perform actions if the value of your metric has gone above or below a predefined threshold. 
+The ```CloudWatch dashboard``` feature enables you to access all the metrics for your resources from a single location
+
+
+1. Which actions can you perform using Amazon CloudWatch? (Select TWO.)
+Ans: ```Monitor your resources’ utilization and performance and
+Access metrics from a single dashboard```
+
+
+### AWS CloudTrail
+
+```AWS CloudTrail```records API calls for your account.
+you can use API calls to provision, manage, and configure your AWS resources. With CloudTrail, you can view a complete history of user activity and API calls for your applications and resources. 
+Events are typically updated in CloudTrail within 15 minutes after an API call.
+
+``` CloudTrail Insights``` - you can also enable ``` CloudTrail Insights``` This optional feature allows CloudTrail to automatically detect unusual API activities in your AWS account. 
+
+1. Which tasks can you perform using AWS CloudTrail? (Select TWO.)
+Ans: ```Track user activities and API requests throughout your AWS infrastructure 
+Filter logs to assist with operational analysis and troubleshooting```
+
+### AWS Trusted Advisor
+
+```AWS Trusted Advisor``` - is a web service that inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices.
+Trusted Advisor compares its findings to AWS best practices in five categories: cost optimization, performance, security, fault tolerance, and service limits.
+
+```AWS Trusted Advisor dashboard``` - When you access the Trusted Advisor dashboard on the AWS Management Console, 
+you can review completed checks for cost optimization, performance, security, fault tolerance, and service limits.
+
+For each category:
+The ```green check ```indicates the number of items for which it detected ```no problems```.
+The ```orange triangle ``` represents the number of ```recommended investigations```.
+The ```red circle ```represents the ```number of recommended actions.```
+
+
+
+1. Which service enables you to review the security of your Amazon S3 buckets by checking for open access permissions?
+Ans: ``` AWS Trusted Advisor```
+
+2. Which categories are included in the AWS Trusted Advisor dashboard? (Select TWO.)
+Ans: ```Performance and Fault tolerance```
+
+
+
+### In Module 7, you learned about the following concepts:
+
+Amazon CloudWatch
+AWS CloudTrail
+AWS Trusted Advisor
