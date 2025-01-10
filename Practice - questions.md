@@ -524,3 +524,145 @@ Tools for planning, estimating, and reviewing AWS costs
 Differences between the five AWS Support plans: Basic, Developer, Business, Enterprise On-Ramp, and Enterprise
 
 How to discover software in AWS Marketplace
+
+
+# Module-9 Migration and Innovation
+
+### AWS Cloud Adoption Framework (AWS CAF)
+
+Six core perspectives of the Cloud Adoption Framework: Each Perspective addresses distinct responsibilities. 
+
+The planning process helps the right people across the organization prepare for the changes ahead.
+
+In general, the Business, People, and Governance Perspectives focus on business capabilities, whereas the Platform, Security, and Operations Perspectives focus on technical capabilities.
+
+```Business Perspective ```ensures that IT aligns with business needs and that IT investments link to key business results.
+
+Common roles in the Business Perspective include: 
+
+                                Business managers
+
+                                Finance managers
+
+                                Budget owners
+
+                                Strategy stakeholders  
+
+```People Perspective``` supports development of an organization-wide change management strategy for successful cloud adoption.
+
+Common roles in the People Perspective include: 
+
+                                Human resources
+
+                                Staffing
+
+                                People managers
+
+```Governance Perspective``` focuses on the skills and processes to align IT strategy with business strategy. This ensures that you maximize the business value and minimize risks.
+
+Common roles in the Governance Perspective include: 
+
+                                Chief Information Officer (CIO)
+
+                                Program managers
+
+                                Enterprise architects
+
+                                Business analysts
+
+                                Portfolio managers
+                                
+```Platform Perspective``` includes principles and patterns for implementing new solutions on the cloud, and migrating on-premises workloads to the cloud.
+
+Common roles in the Platform Perspective include: 
+
+                                Chief Technology Officer (CTO)
+      
+                                IT managers
+                    
+                                Solutions architects
+
+```Security Perspective ``` ensures that the organization meets security objectives for visibility, auditability, control, and agility.
+
+Common roles in the Security Perspective include: 
+
+                              Chief Information Security Officer (CISO)
+
+                              IT security managers
+                              
+                              IT security analysts 
+
+```Operations Perspective``` helps you to enable, run, use, operate, and recover IT workloads to the level agreed upon with your business stakeholders.
+
+Common roles in the Operations Perspective include: 
+
+                              IT operations managers
+
+                              IT support managers
+
+
+1. Which Perspective of the AWS Cloud Adoption Framework helps you design, implement, and optimize your AWS infrastructure based on your business goals and perspectives?
+Ans: ```Platform Perspective```
+
+### Migration Strategies
+
+### 6 - strategies for migration:
+
+When migrating applications to the cloud, six of the most common migration strategies that you can implement are:
+
+```Rehosting``` - Rehosting also known as “lift-and-shift” involves moving applications without changes.
+
+```Replatforming ```- Replatformingalso known as “lift, tinker, and shift,” involves making a few cloud optimizations to realize a tangible benefit. Optimization is achieved without changing the core a 
+  architecture of the application.
+
+```Refactoring/re-architecting ```- Refactoring (also known as re-architecting) involves reimagining how an application is architected and developed by using cloud-native features. 
+Refactoring is driven by a strong business need to add features, scale, or performance that would otherwise be difficult to achieve in the application’s existing environment.
+
+```Repurchasing``` - Repurchasing involves moving from a traditional license to a software-as-a-service model. 
+
+```Retaining``` - Retaining consists of keeping applications that are critical for the business in the source environment.
+
+```Retiring``` - is the process of removing applications that are no longer needed.
+
+#Question 
+
+
+1. Which migration strategy involves moving to a different product?
+Ans: ```Repurchasing```
+
+### AWS Snow Family
+
+The ```AWS Snow Family``` is a collection of physical devices that help to physically transport up to exabytes of data into and out of AWS.
+
+AWS Snow Family is composed of ```AWS Snowcone``` - ```AWS Snowball``` and ```AWS Snowmobile```
+
+
+```AWS Snowcone``` is a small, rugged, and secure edge computing and data transfer device. 
+
+It features 2 CPUs, 4 GB of memory, and up to 14 TB of usable storage.
+
+```AWS Snowballoffers``` two types of devices:
+
+    1. Snowball Edge Storage Optimized - devices are well suited for large-scale data migrations and recurring transfer workflows, in addition to local computing with higher capacity needs. 
+    
+    -> Storage: 80 TB of hard disk drive (HDD) capacity for block volumes and Amazon S3 compatible object storage, and 1 TB of SATA solid state drive (SSD) for block volumes.
+    -> Compute: 40 vCPUs, and 80 GiB of memory to support Amazon EC2 sbe1 instances (equivalent to C5).
+
+
+    
+    2. Snowball Edge Compute Optimized - provides powerful computing resources for use cases such as machine learning, full motion video analysis, analytics, and local computing stacks. 
+
+    -> Storage: 80-TB usable HDD capacity for Amazon S3 compatible object storage or Amazon EBS compatible block volumes and 28 TB of usable NVMe SSD capacity for Amazon EBS compatible block volumes. 
+
+    -> Compute: 104 vCPUs, 416 GiB of memory, and an optional NVIDIA Tesla V100 GPU. Devices run Amazon EC2 sbe-c and sbe-g instances, which are equivalent to C5, M5a, G3, and P3 instances.
+
+
+```AWS Snowmobile``` - is an exabyte-scale data transfer service used to move large amounts of data to AWS. 
+
+You can transfer up to 100 petabytes of data per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi trailer truck.
+
+
+1. What is the storage capacity of Snowball Edge Storage Optimized?
+Ans: ```80TB```
+
+### Innovation with AWS
