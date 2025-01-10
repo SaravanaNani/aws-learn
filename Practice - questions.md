@@ -916,7 +916,7 @@ Ans: ```Performance Efficiency```
 26. Which service builds the workflows that are required for human review of machine learning predictions?
 Ans: ```Amazon Augmented AI```
 
-27.A cloud architect wants Amazon S3 to monitor object access patterns. Which storage class should they use? 
+27. A cloud architect wants Amazon S3 to monitor object access patterns. Which storage class should they use? 
 Ans: ```Amazon S3 Intelligent-Tiering```
 
 28. In the S3 Intelligent-Tiering storage class, Amazon S3 moves objects between a frequent access tier and an infrequent access tier. Which storage classes are used for these tiers? (Select TWO.)
