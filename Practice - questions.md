@@ -834,5 +834,96 @@ The AWS Certified Cloud Practitioner exam includes four domains:
 
 4 - Billing and Pricing - 12%
 
-# Final Assessment - kQuiz:
+# Final Assessment - Quiz:
 
+1. Which tool provides automation actions for AWS services and applications through scripts?
+Ans: ``` Command Line Interface ```
+
+2. A cloud engineer wants to store data in a volume that is attached to an Amazon EC2 instance. Which service should they use?
+Ans: ```Amazon Elastic Block Store (Amazon EBS)```
+
+3. Which tool provides the capability to visualize, understand, and manage AWS costs and usage over time?
+Ans: ```AWS Cost Explorer```
+
+4. Which statement best describes AWS Marketplace?
+Ans: ```  A digital catalog that includes thousands of software listings from independent software vendors```
+
+5. An application developer wants to send and receive messages between distributed application components. Which service should they use?    
+Ans: ```Amazon Simple Queue Service (Amazon SQS)```
+
+6.  Which Amazon EC2 pricing option reduces costs when a business makes an hourly spend commitment to an instance family and Region for a 1-year or 3-year term?
+Ans: ``` EC2 Instance Savings Plans```
+
+7.  Which tasks are the responsibilities of AWS? (Select TWO.)
+Ans: ```Maintaining virtualization infrastructure and
+Configuring AWS infrastructure devices```
+
+8. Which action can a person perform in Amazon CloudFront?
+Ans: ```Deliver content to customers through a global network of edge locations.```
+
+9. Which service runs containerized applications on AWS?
+ Ans: ```Amazon Elastic Kubernetes Service (Amazon EKS)```
+
+10. Which actions can a person perform in Amazon Route 53? (Select TWO.)
+Ans: ```Connect user requests to infrastructure in AWS and outside of AWS and
+Manage DNS records for domain names.```
+
+11. Which statement best describes Amazon GuardDuty?
+Ans: ```A service that provides intelligent threat detection for AWS infrastructure and resources```
+
+12. Which statement best describes an Availability Zone?
+Ans: ```A fully isolated portion of the AWS global infrastructure```
+
+13. Which statement best describes Elastic Load Balancing?
+Ans: ``` A service that distributes incoming traffic across multiple targets, such as Amazon EC2 instances```
+
+14.  Which Perspective of the AWS Cloud Adoption Framework focuses on recovering IT workloads to meet the requirements of business stakeholders?
+Ans: ```Operations Perspective```
+
+15. Which service consolidates and manages multiple AWS accounts from a central location?
+Ans: ```AWS Organizations```
+
+16. Which Support plans include access to all AWS Trusted Advisor checks? (Select TWO.)
+Ans: ```Business and Enterprise```
+
+17. Which service provides review details for user activities and API calls that have occurred within an AWS environment?
+Ans: ```AWS CloudTrail```
+
+18. An application developer wants to store data in a key-value database. Which service should they use?
+Ans: ```Amazon DynamoDB```
+
+19. Which migration strategy involves changing how an application is architected and developed, typically by using cloud-native features?
+Ans: ```Refactoring```
+
+20. Which statement is TRUE for AWS Lambda?
+Ans: ```Businesses pay only for compute time while their code is running.```
+
+21. Which service provides the capability to quickly deploy and scale applications on AWS?
+Ans: ```AWS Elastic Beanstalk```
+
+22. Which service is used to transfer up to 100 PB of data to AWS?
+Ans: ```AWS Snowmobile```
+
+23. Which component or service establishes a dedicated private connection between an on-premises data center and virtual private cloud (VPC)?
+Ans: ```AWS Direct Connect```
+
+24. A cloud engineer is running an Amazon EC2 instance and wants to store data in an attached resource. Their data is temporary and will not be kept long term. Which resource should they use?
+Ans: ```Instance store```
+
+25. Which pillar of the AWS Well-Architected Framework focuses on using computing resources in ways that meet system requirements?
+Ans: ```Performance Efficiency```
+
+26. Which service builds the workflows that are required for human review of machine learning predictions?
+Ans: ```Amazon Augmented AI```
+
+27.A cloud architect wants Amazon S3 to monitor object access patterns. Which storage class should they use? 
+Ans: ```Amazon S3 Intelligent-Tiering```
+
+28. In the S3 Intelligent-Tiering storage class, Amazon S3 moves objects between a frequent access tier and an infrequent access tier. Which storage classes are used for these tiers? (Select TWO.)
+Ans: ```S3 Standard and S3 Standard - IA```
+
+29. Which virtual private cloud (VPC) component controls inbound and outbound traffic for Amazon EC2 instances?
+Ans: ```Security group```
+
+30. Which AWS Trusted Advisor category includes checks for high-utilization EC2 instances?
+Ans: ```Performance```
