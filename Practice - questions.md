@@ -536,6 +536,7 @@ The planning process helps the right people across the organization prepare for 
 
 In general, the Business, People, and Governance Perspectives focus on business capabilities, whereas the Platform, Security, and Operations Perspectives focus on technical capabilities.
 
+
 ```Business Perspective ```ensures that IT aligns with business needs and that IT investments link to key business results.
 
 Common roles in the Business Perspective include: 
@@ -666,3 +667,106 @@ You can transfer up to 100 petabytes of data per Snowmobile, a 45-foot long rugg
 Ans: ```80TB```
 
 ### Innovation with AWS
+
+```AWS serverless ```- refers to applications that don’t require you to provision, maintain, or administer servers. You don’t need to worry about fault tolerance or availability. AWS handles these capabilities for you.
+
+AWS offers a variety of services powered by ```artificial intelligence (AI)```. 
+
+For example, you can perform the following tasks:
+
+    Convert speech to text with Amazon Transcribe.
+    
+    Discover patterns in text with Amazon Comprehend.
+    
+    Identify potentially fraudulent online activities with Amazon Fraud Detector.
+    
+    Build voice and text chatbots with Amazon Lex.
+    
+```Traditional machine learning (ML)``` development is complex, expensive, time consuming, and error prone. AWS offers Amazon SageMaker to remove the difficult work from the process and empower you to build, train, and deploy ML models quickly.
+
+```Amazon Q Developer``` - Amazon Q Developer is a machine learning-powered code generator that provides you with code recommendations in real time.
+
+As you write code, ```Amazon Q Developer ``` analyzes your code and comments as you write code in your integrated development environment (IDE). Amazon Q Developer then automatically generates suggestions based on your existing code and comments.
+
+1. Which service enables you to quickly build, train, and deploy machine learning models?
+Ans: ``` Amazon SageMaker```
+
+# Quiz:
+
+1. Which Perspective of the AWS Cloud Adoption Framework helps you structure the selection and implementation of permissions?
+Ans: ```Security Perspective```
+
+2. Which strategies are included in the six strategies for application migration? (Select TWO.)
+Ans: ```Retaining and Rehosting```
+
+3. What is the storage capacity of AWS Snowmobile?
+Ans: ```100 PB```
+
+4. Which statement best describes Amazon Lex?
+Ans: ```A service that enables you to build conversational interfaces using voice and text```
+
+
+### In Module 9, you learned about the following concepts:
+
+The AWS Cloud Adoption Framework
+The six strategies for migration
+The AWS Snow Family
+Innovation with AWS services
+
+
+
+# Module 10 
+
+
+###The AWS Well-Architected Framework
+
+The ```AWS Well-Architected Framework``` helps you understand how to design and operate reliable, secure, efficient, and cost-effective systems in the AWS Cloud. 
+
+The Well-Architected Framework is based on six pillars: 
+
+      Operational excellence
+      
+      Security
+      
+      Reliability
+      
+      Performance efficiency
+
+      Cost optimization
+
+      Sustainability
+
+```Operational excellence``` is the ability to run and monitor systems to deliver business value and to continually improve supporting processes and procedures.  
+
+```Security pillar``` is the ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies. 
+
+```Reliability ```is the ability of a system to do the following:
+
+    Recover from infrastructure or service disruptions
+    
+    Dynamically acquire computing resources to meet demand
+    
+    Mitigate disruptions such as misconfigurations or transient network issues
+
+
+```Performance efficiency``` is the ability to use computing resources efficiently to meet system requirements and to maintain that efficiency as demand changes and technologies evolve. 
+
+```Cost optimization``` is the ability to run systems to deliver business value at the lowest price point. 
+
+```Sustainability``` is the ability to continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required.
+
+### 
+
+# Quiz:
+
+1. Which pillar of the AWS Well-Architected Framework includes the ability to run workloads effectively and gain insights into their operations?
+Ans:``` Operational Excellence```
+
+
+2. Which pillar of the AWS Well-Architected Framework focuses on the ability of a workload to consistently and correctly perform its intended functions?
+Ans: ```Reliability```
+
+3. What are the benefits of cloud computing? (Select TWO.)
+Ans: ``` Increase speed and agility and
+Stop spending money running and maintaining data centers```
+
