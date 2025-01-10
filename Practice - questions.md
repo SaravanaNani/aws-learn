@@ -399,3 +399,128 @@ Ans: ```Performance and Fault tolerance```
 Amazon CloudWatch
 AWS CloudTrail
 AWS Trusted Advisor
+
+
+# Module 8 - Billing 
+
+
+### AWS Free Tier
+
+The AWS Free Tier enables you to begin using certain services without having to worry about incurring costs for the specified period. 
+
+Three types of offers are available: -> 
+
+```Always Free``` - These offers do not expire and are available to all AWS customers.
+
+```For example```- AWS Lambda allows 1 million free requests and up to 3.2 million seconds of compute time per month. Amazon DynamoDB allows 25 GB of free storage per month.
+
+
+```12 Months Free``` - These offers are free for 12 months following your initial sign-up date to AWS.
+
+``` For Example``` include specific amounts of Amazon S3 Standard Storage, thresholds for monthly hours of Amazon EC2 compute time, and amounts of Amazon CloudFront data transfer out.
+
+
+``` Trials``` - Short-term free trial offers start from the date you activate a particular service. The length of each trial might vary by number of days or the amount of usage in the service.
+
+```For example``` Amazon Inspector offers a 90-day free trial.
+
+### Quiz:
+
+1. The AWS Free Tier includes offers that are available to new AWS customers for a certain period of time following their AWS sign-up date. What is the duration of this period?
+
+Ans: ``` 12 Months```
+
+
+### AWS Pricing Concepts
+
+```AWS Pricing Calculator``` - lets you explore AWS services and create an estimate for the cost of your use cases on AWS.
+You can organize your AWS estimates by groups that you define. A group can reflect how your company is organized, such as providing estimates by cost center.
+
+
+### Billing Dashboard
+
+-> Use the``` AWS Billing & Cost Management dashboard``` to pay your AWS bill, monitor your usage, and analyze and control your costs.
+
+-> Compare your current month-to-date balance with the previous month, and get a forecast of the next month based on current usage.
+
+-> View month-to-date spend by service.
+
+-> View Free Tier usage by service.
+
+-> Access Cost Explorer and create budgets.
+
+-> Purchase and manage Savings Plans.
+
+
+### Consolidated Billing
+
+The ```consolidated billing feature ```of AWS Organizations enables you to receive a single bill for all AWS accounts in your organization. 
+By consolidating, you can easily track the combined costs of all the linked accounts in your organization.
+The default maximum number of accounts allowed for an organization is 4, but you can contact AWS Support to increase your quota, if needed.
+
+
+### AWS Budgets
+In ``` AWS Budgets``` you can create budgets to plan your service usage, service costs, and instance reservations.
+In AWS Budgets, you can also set custom alerts when your usage exceeds (or is forecasted to exceed) the budgeted amount.
+
+### AWS Cost Explorer
+
+```AWS Cost Explorer```is a tool that lets you visualize, understand, and manage your AWS costs and usage over time.
+
+
+
+### AWS Support Plans
+
+AWS offers four different Support plan to help you troubleshoot issues, lower costs, and efficiently use AWS services. 
+
+You can choose from the following Support plans to meet your company’s needs: 
+
+-> Basic : ``` Basic Support``` is free for all AWS customers. It includes access to whitepapers, documentation, and support communities. With Basic Support, you can also contact AWS for billing questions and service limit increases.
+
+-> Developer - Business - Enterprise On-Ramp - Enterprise : The Developer, Business, Enterprise On-Ramp, and Enterprise Support plans include all the benefits of Basic Support,
+in addition to the ability to open an unrestricted number of technical support cases. These Support plans have pay-by-the-month pricing and require no long-term contracts.
+
+```Technical Account Manager (TAM)``` - The Enterprise On-Ramp and Enterprise Support plans include access to a Technical Account Manager (TAM).
+
+The TAM is your primary point of contact at AWS. If your company subscribes to Enterprise Support or Enterprise On-Ramp, your TAM educates, empowers, and evolves your cloud journey across the full range of AWS services. 
+
+
+### AWS Marketplace
+
+```AWS Marketplace``` is a digital catalog that includes thousands of software listings from independent software vendors. You can use AWS Marketplace to find, test, and buy software that runs on AWS. 
+
+AWS Marketplace offers products in several categories, such as Infrastructure Software, DevOps, Data Products, Professional Services, Business Applications, Machine Learning, Industries, and Internet of Things (IoT).
+
+# Quiz:
+
+
+1. Which pricing tool is used to visualize, understand, and manage your AWS costs and usage over time?
+Ans: ``` AWS Cost Explorer```
+
+2. Which pricing tool enables you to receive alerts when your service usage exceeds a threshold that you have defined?
+Ans: ``` AWS Budegets```
+
+3. Which Support plan includes all AWS Trusted Advisor checks at the lowest cost?
+Ans: ```Business```
+
+4. Your company wants to receive support from an AWS Technical Account Manager (TAM). Which support plan should you choose?
+Ans: ```Enterprise```
+
+5. Which action can you perform with consolidated billing?
+Ans: ```Combine usage across accounts to receive volume pricing discounts.```
+
+6. Which service or resource is used to find third-party software that runs on AWS?
+Ans: ```AWS Market Place```
+
+
+### In Module 8, you learned about the following concepts:
+
+Three types of offers included in the AWS Free Tier: 12 months free, Always free, and Trials
+
+Benefits of consolidated billing in AWS Organizations
+
+Tools for planning, estimating, and reviewing AWS costs
+
+Differences between the five AWS Support plans: Basic, Developer, Business, Enterprise On-Ramp, and Enterprise
+
+How to discover software in AWS Marketplace
