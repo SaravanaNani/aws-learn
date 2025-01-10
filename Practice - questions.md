@@ -755,7 +755,23 @@ The Well-Architected Framework is based on six pillars:
 
 ```Sustainability``` is the ability to continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required.
 
-### 
+### Benefits of the AWS Cloud
+
+```Advantages of cloud computing``` - Operating in the AWS Cloud offers many benefits over computing in on-premises or hybrid environments. 
+
+In this section, you will learn about six advantages of cloud computing:
+
+    Trade upfront expense for variable expense.
+
+    Benefit from massive economies of scale.
+
+    Stop guessing capacity.
+
+    Increase speed and agility.
+
+    Stop spending money running and maintaining data centers.
+
+    Go global in minutes.
 
 # Quiz:
 
@@ -769,4 +785,54 @@ Ans: ```Reliability```
 3. What are the benefits of cloud computing? (Select TWO.)
 Ans: ``` Increase speed and agility and
 Stop spending money running and maintaining data centers```
+
+4. Which process is an example of benefiting from massive economies of scale?
+Ans: ```Receiving lower pay-as-you-go prices as the result of AWS customers’ aggregated usage of services```
+
+### In Module 10, you learned about the following concepts:
+
+### The six pillars of the AWS Well-Architected Framework:
+
+Operational excellence
+
+Security
+
+Reliability
+
+Performance efficiency
+
+Cost optimization
+
+Sustainability
+
+### Six advantages of cloud computing:
+
+Trade upfront expense for variable expense.
+
+Benefit from massive economies of scale.
+
+Stop guessing capacity.
+
+Increase speed and agility.
+
+Stop spending money running and maintaining data centers.
+
+Go global in minutes.
+
+
+# Module 11 - Learning objectives
+
+Exam domains
+
+The AWS Certified Cloud Practitioner exam includes four domains:
+
+1 - Cloud Concepts - 24%
+
+2 - Security and Compliance - 30%
+
+3 - Technology - 34%
+
+4 - Billing and Pricing - 12%
+
+# Final Assessment - kQuiz:
 
